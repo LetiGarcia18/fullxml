@@ -20,6 +20,7 @@
 		     <span>
 	     	<xsl:value-of select="price"/>
 	     </span>
+	      euros
 	     </p>
 	     
 	</xsl:template>
