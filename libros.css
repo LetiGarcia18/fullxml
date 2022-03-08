@@ -4,6 +4,7 @@
 }
 
 h2{
+	color:blue;
 	font: 150% sans-serif;
 }
 p{
@@ -17,5 +18,5 @@ span{
 	background-color:yellow;
 	font-weight: bold;
 	font-size: 15px;
-	color:black;
+	color:blue;
 }
