@@ -1,0 +1,51 @@
+/*#libro {
+			background-color:pink;
+            overflow: scroll;
+            min-height: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }*/
+* {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 5px;
+}
+
+#libro {
+            padding-left: 10px;
+            padding-top: 10px;
+            margin-left: 57px;
+            float: left;
+            position: relative;
+            width: 25%;
+            border: steelblue solid 3px;
+            height: 400px;
+        }
+
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  
+            #libro {
+                display: none;
+                
+            }
+}
+/*#libro {
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-left: 10px;
+            position: relative;
+            float: left;
+            width: 45%;
+            border: steelblue solid 1px;
+            height: 300px;
+        }*/
+
+p{
+color:blue !important;
+background-color: yellow;
+}
+
+
+
