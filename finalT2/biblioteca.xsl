@@ -11,6 +11,7 @@
 	  			<div class="autor">
 	 				<p>
      				<xsl:value-of select="autor"/>
+     				<span class="ref">No se ve</span> //probando para que se vea mensaje al desaparecer div
      				</p>
 	 				</div>
      			<div class="titulo">
