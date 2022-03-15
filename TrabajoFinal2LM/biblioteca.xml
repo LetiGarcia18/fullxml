@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/1DAM2021/Trim 2/finalevaluacion/finalT2/biblioteca.xsd">
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/DAM%201_LM/fullxml/TrabajoFinal2LM/biblioteca.xsd">
   <libro>
     <foto>miki.webp</foto>
+    <sexo>Masculino</sexo>
     <titulo>La vida está en otra parte</titulo>
     <autor>Milan Kundera</autor>
-    <fechaPublicacion año="1976"/>
+    <fechaPublicacion año= "1976"/>
   </libro>
   <libro>
     <foto>senda.webp</foto>
+    <sexo>Femenino</sexo>
     <titulo>Pantaleón y las visitadoras</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1973"/>
   </libro>
   <libro>
     <foto>summer.webp</foto>
+    <sexo>Masculino</sexo>
     <titulo>Conversación en la catedral</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1969"/>

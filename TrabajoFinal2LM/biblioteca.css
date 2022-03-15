@@ -1,0 +1,29 @@
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 5px;
+    }
+    
+    #libro {
+                padding-left: 10px;
+                padding-top: 10px;
+                margin-left: 57px;
+                float: left;
+                position: relative;
+                width: 25%;
+                border: steelblue solid 3px;
+                height: 400px;
+            }
+    
+    
+    @media screen and (max-width: 800px) and (min-width: 550px) {
+      
+                #libro {
+                    display: none;
+                }
+    }
+    
+    p{
+    color:blue !important;
+    background-color: yellow;
+    }
