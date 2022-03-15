@@ -7,11 +7,11 @@
     </body></html>
   </xsl:template>
 	  	<xsl:template match="libro">
+	  		<foto>miki.webp</foto>
 	  		<div id = "libro">
 	  			<div class="autor">
 	 				<p>
      				<xsl:value-of select="autor"/>
-     				<span class="ref">No se ve</span> //probando para que se vea mensaje al desaparecer div
      				</p>
 	 				</div>
      			<div class="titulo">

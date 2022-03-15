@@ -26,17 +26,13 @@
 
 
 
-@media screen and (max-width: 500px) and (min-width: 300px) {
+@media screen and (max-width: 550px) and (min-width: 300px) {
   
             #libro {
                 display: none;
         
             }
-            .ref::before {
-                font-weight: negrita;
-                color: navy;
-                content: "Reference: ";
-              }
+
 }
 .autor {
         color:blue !important;
