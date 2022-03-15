@@ -8,6 +8,13 @@
   </xsl:template>
 	  	<xsl:template match="libro">
 	  		<div id = "libro">
+	  			<p>
+	  				<img>
+    					<xsl:attribute name="src">
+      						<xsl:value-of select="foto" />
+    					</xsl:attribute>
+    				</img>
+    			</p>
 	  			<div class="autor">
 	 				<p>
      				<xsl:value-of select="autor"/>

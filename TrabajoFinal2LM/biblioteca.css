@@ -5,18 +5,25 @@
     }
     
     #libro {
-                padding-left: 10px;
-                padding-top: 10px;
-                margin-left: 57px;
+                margin-right: 50px;
                 float: left;
                 position: relative;
                 width: 25%;
                 border: steelblue solid 3px;
                 height: 400px;
+                
+            }
+    
+     img  {
+                margin: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                
             }
     
     
-    @media screen and (max-width: 800px) and (min-width: 550px) {
+    @media screen and (max-width: 800px) and (min-width: 500px) {
       
                 #libro {
                     display: none;

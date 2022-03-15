@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/DAM%201_LM/fullxml/TrabajoFinal2LM/biblioteca.xsd">
   <libro>
-    <foto>miki.webp</foto>
+    <foto ruta = "TrabajoFinal2LM\miki.webp">miki.webp</foto>
     <sexo>Masculino</sexo>
     <titulo>La vida está en otra parte</titulo>
     <autor>Milan Kundera</autor>
