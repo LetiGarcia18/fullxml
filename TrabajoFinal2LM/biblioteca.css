@@ -17,8 +17,7 @@
     
     #libro {
 
-        margin-right: auto;
-        margin-left: 50px;
+        margin: auto;
         float: left;
         position: relative;
         width: 25%;
