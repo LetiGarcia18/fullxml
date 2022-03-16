@@ -1,34 +1,49 @@
-        * {
-            box-sizing: border-box;
-            padding: 0px;
-            margin: 5px;
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 5px;
     }
     
     #libro {
-                margin-right: 50px;
-                float: left;
-                position: relative;
-                width: 25%;
-                border: steelblue solid 3px;
-                height: 400px;
+
+        margin-right: 50px;
+        margin-left: 50px;
+        float: left;
+        position: relative;
+        width: 25%;
+        border: steelblue solid 3px;
+        height: 400px;
                 
-            }
+    }
+
+    h2:hover {
+        transform: scale(100%);
+        transition: all 0.5s;
+        font-size:30px;
+    }
     
-     img  {
-                margin: auto;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                
-            }
+    img  {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        object-fit:cover; 
+    }
+
+    img:hover {
+        /*filter: grayscale(100%); Efecto gris a la foto*/
+        filter: grayscale(100%);
+    }
     
     
     @media screen and (max-width: 800px) and (min-width: 500px) {
       
-                #libro {
-                    display: none;
-                }
+            #libro {
+                display: none;
+            }
     }
+
+    
     
     p{
     color:blue !important;
