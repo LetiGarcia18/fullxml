@@ -2,10 +2,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  
  <xsl:template match="/">
-	<html><head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head><body>
-      <xsl:apply-templates />
+	<html><head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head><body><h1 id="texto"> Viewbort muy estrecho</h1><div id= "contenedor">
+      <xsl:apply-templates /></div>
     </body></html>
   </xsl:template>
+  
 	  	<xsl:template match="libro">
 	  		<div id = "libro">
 	  			<p>
@@ -27,9 +28,4 @@
       			</div>
 			</div>
       	</xsl:template>
-  
-	 
-  
- 
-  
 </xsl:stylesheet>

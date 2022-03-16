@@ -4,17 +4,30 @@
         margin: 5px;
     }
     
+    p{
+        color:blue !important;
+        background-color: yellow;
+        }
+
+    #contenedor{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     #libro {
 
-        margin-right: 50px;
+        margin-right: auto;
         margin-left: 50px;
         float: left;
         position: relative;
         width: 25%;
         border: steelblue solid 3px;
         height: 400px;
+        
                 
     }
+
 
     h2:hover {
         transform: scale(100%);
@@ -30,9 +43,17 @@
         object-fit:cover; 
     }
 
-    img:hover {
-        /*filter: grayscale(100%); Efecto gris a la foto*/
+    
+
+    img:active {
+        /*box-shadow: 3px 3px red, -1em 0 0.4em olive;*/
+        box-shadow: 20px 15px 15px black;
         filter: grayscale(100%);
+    }
+
+
+    h1 {
+        display: none;
     }
     
     
@@ -41,11 +62,22 @@
             #libro {
                 display: none;
             }
+
+            h1{
+                display: block;
+                width: 100%;
+                color: orangered;
+                font-family: sans-serif;
+                }
+
+    }
+
+    #contenedor:active{
+        flex-direction: row-reverse;
     }
 
     
     
-    p{
-    color:blue !important;
-    background-color: yellow;
-    }
+    
+
+    

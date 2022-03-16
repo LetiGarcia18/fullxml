@@ -4,22 +4,22 @@
   <libro>
     <foto>miki.webp</foto>
     <sexo>Masculino</sexo>
-    <titulo>La vida está en otra parte</titulo>
-    <autor>Milan Kundera</autor>
+    <titulo>Miki bien a gustito</titulo>
+    <autor>El gatito Miki</autor>
     <fechaPublicacion año= "1976"/>
   </libro>
   <libro>
     <foto>senda.webp</foto>
     <sexo>Femenino</sexo>
-    <titulo>Pantaleón y las visitadoras</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <titulo>Senda echándose la siesta</titulo>
+    <autor fechaNacimiento="28/03/1936">La gatita Senda</autor>
     <fechaPublicacion año="1973"/>
   </libro>
   <libro>
     <foto>summer.webp</foto>
     <sexo>Masculino</sexo>
-    <titulo>Conversación en la catedral</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <titulo>Summer con cara de pocos amigos</titulo>
+    <autor fechaNacimiento="28/03/1936">El gatito Summer</autor>
     <fechaPublicacion año="1969"/>
   </libro>
 </biblioteca>
